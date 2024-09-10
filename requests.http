@@ -1,0 +1,25 @@
+
+POST http://127.0.0.1:8000/api/recipes/
+Content-Type: application/json
+Authorization: Token 2c8bae18dafc6cfe6acecc885dca4d9185166056
+
+{
+    "ingredients": [
+        {
+            "id": 9,
+            "amount": 10
+        },
+        {
+            "id": 10,
+            "amount": 20
+        }
+    ],
+    "tags": [
+        3,
+        4
+    ],
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAgMAAABieywaAAAACVBMVEUAAAD///9fX1/S0ecCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAACklEQVQImWNoAAAAggCByxOyYQAAAABJRU5ErkJggg==",
+    "name": "Нечто съедобное (это не точно)",
+    "text": "Приготовьте как нибудь эти ингредиеты",
+    "cooking_time": 5
+}
